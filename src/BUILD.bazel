@@ -54,6 +54,7 @@ rollup_bundle(
     deps = [
         "//src",
         "@npm//rollup-plugin-commonjs",
+        "@npm//rollup-plugin-amd",
         "@npm//rollup-plugin-node-resolve",
     ],
 )
