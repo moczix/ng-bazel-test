@@ -5,6 +5,7 @@ load("@npm_angular_bazel//:index.bzl", "ng_module")
 
 ng_module(
     name = "shared",
+    module_name = "@shared",
     srcs = glob(
         include = ["*.ts"],
         exclude = [
