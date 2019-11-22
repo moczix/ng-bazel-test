@@ -26,7 +26,7 @@ multi_sass_binary(
 ng_module(
     name = "src",
     srcs = glob(
-        include = ["**/*.ts"],
+        include = ["*.ts"],
         exclude = [
             "**/*.spec.ts",
             "main.ts",
@@ -44,6 +44,7 @@ ng_module(
         "@npm//@angular/router",
         "@npm//@types",
         "@npm//rxjs",
+        "//src/app"
     ],
 )
 
